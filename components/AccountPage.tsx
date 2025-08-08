@@ -33,9 +33,9 @@ export function AccountPage({ onLogout, onNavigate }: AccountPageProps) {
                   <span className="text-2xl">👨‍🌾</span>
                 </div>
                 <div>
-                  <h3 className="font-medium">Budi Santoso</h3>
+                  <h3 className="font-medium">Hamka</h3>
                   <p className="text-sm text-muted-foreground">Petani - Desa Sumbang</p>
-                  <p className="text-sm text-muted-foreground">budi.santoso@gmail.com</p>
+                  <p className="text-sm text-muted-foreground">hamka@gmail.com</p>
                 </div>
               </div>
               

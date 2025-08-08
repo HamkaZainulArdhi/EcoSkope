@@ -56,9 +56,12 @@ export function LoginRegisterWithRole({ onLogin }: LoginRegisterWithRoleProps) {
       <div className="w-full max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4">
+          {/* <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4">
             <span className="text-2xl">🌱</span>
-          </div>
+          </div> */}
+          <div className="inline-flex items-center justify-center w-40 h-50 rounded-full">
+          <img src="src/assets/logo.svg" alt="EcoScope" style={{ width: '150px', height: '150px', objectFit: 'contain' }} />
+        </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
             EcoScope Banyumas
           </h1>

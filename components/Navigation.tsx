@@ -47,10 +47,15 @@ export function Navigation({ currentPage, onPageChange }: NavigationProps) {
       {/* Desktop Sidebar */}
       <aside className="hidden md:flex w-84 bg-card border-r p-6 flex-col">
         <div className="mb-8">
-          <div className="flex items-center space-x-2 mb-2">
+          {/* <div className="flex items-center space-x-2 mb-2">
             <span className="text-2xl">🌱</span>
             <h1 className="text-2xl font-bold text-primary">EcoScope</h1>
-          </div>
+          </div> */}
+          <div className="flex items-center space-x-2 mb-2">
+  <img src="src/assets/logo.svg" alt="EcoScope Logo" className="w-20 h-20" />
+  <h1 className="text-2xl font-bold text-primary">EcoScope</h1>
+</div>
+
           <p className="text-muted-foreground">
             Monitoring Lingkungan Banyumas
           </p>

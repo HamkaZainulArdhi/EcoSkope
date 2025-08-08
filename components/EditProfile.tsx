@@ -30,8 +30,8 @@ interface EditProfileProps {
 
 export function EditProfile({ onBack }: EditProfileProps) {
   const [profileData, setProfileData] = useState({
-    name: "Budi Santoso",
-    email: "budi.santoso@gmail.com",
+    name: "Hamka",
+    email: "hamka@gmail.com",
     phone: "081234567890",
     address: "Jl. Raya Sumbang No. 123",
     village: "Sumbang",
